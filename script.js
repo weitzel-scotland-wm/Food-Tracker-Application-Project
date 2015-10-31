@@ -15,7 +15,7 @@ function addCells(){
     if (expiration <= 3){
         row.id = "danger"
     }
-    if (val%2 === 1){
+    if (val%2 === 1 && expiration > 3){
         row.id = "alternate"
     }
     fn.innerHTML = foodname;
