@@ -1,0 +1,36 @@
+body{
+    background-image: url("http://www.ufmcpueblo.com/wp-content/uploads/2015/07/Fruit-Vegetables-Healthy-Food.jpg");
+    background-attachment: fixed;
+}
+
+th {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: lawngreen;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+tr {
+    background: rgba(256, 256, 256, 0.4);
+    color: black;
+}
+
+#danger{
+    background-color: yellowgreen;
+    color: red;
+}
+
+#normal{
+    background-color: black;
+    text-decoration: line-through;
+}
+
+#alternate{
+    color: black;
+    background-color: rgba(200, 200, 200, 0.4)
+}

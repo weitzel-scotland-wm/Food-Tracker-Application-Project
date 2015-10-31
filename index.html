@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title></title>
+</head>
+<body>
+<table border="1" id="table">
+    <tr>
+        <form>
+            <th>Food Name: <input type="text" name="food" onkeyup="formChanged()" onchange="formChanged()"></th>
+            <th>Description: <input type="text" name="description" onkeyup="formChanged()" onchange="formChanged()"></th>
+            <th>Date of Purchase: <input type="text" name="purchase" onkeyup="formChanged()" onchange="formChanged()"></th>
+            <th id="btn">Shelf Life: <input type="text" name="expiration" onkeyup="formChanged()" onchange="formChanged()"></th>
+        </form>
+        <th><button onclick="addCells()">Submit</button>
+    </tr>
+</table>
+</body>
+</html>
