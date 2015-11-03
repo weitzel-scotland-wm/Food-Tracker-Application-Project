@@ -34,3 +34,7 @@ tr {
     color: black;
     background-color: rgba(200, 200, 200, 0.4)
 }
+
+.selected{
+    background-color: rgba(0, 20, 0, 0.4)
+}

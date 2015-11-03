@@ -24,3 +24,10 @@ function addCells(){
     ep.innerHTML = expiration;
     val = val + 1;
 }
+
+$(document).ready(function(){
+  $("tr").click(function(){
+      $(this).addClass("selected")
+  })
+    }
+);
